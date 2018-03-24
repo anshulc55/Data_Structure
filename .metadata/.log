@@ -119,3 +119,6 @@ org.eclipse.core.runtime.CoreException: Node not found
 	at org.sf.feeling.decompiler.update.DecompilerUpdateHandler.access$1(Unknown Source)
 	at org.sf.feeling.decompiler.update.DecompilerUpdateHandler$1.run(Unknown Source)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.ui 4 4 2018-03-24 21:35:54.766
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.ProblemView.
