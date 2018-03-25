@@ -1,0 +1,7 @@
+Feature: Login Action Feature
+
+Scenario: Application Login Scenario
+Given User is already on Login Page
+When Tittle of Login Page is FREE CRM
+Then User enter username and User Enter password
+And User clicks on Login Button
