@@ -1,0 +1,78 @@
+package StepDefinitions;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import cucumber.api.PendingException;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class LoginSteps {
+	
+	WebDriver driver;
+	
+	@Given("^User is on Application Home Page$")
+	public void user_is_on_Application_Home_Page() {
+		System.out.println(System.getProperty("user.dir"));
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.info") + "");
+		driver = new ChromeDriver();
+	    
+	}
+
+	@When("^Application Page Tittle is FREE CRM$")
+	public void application_Page_Tittle_is_FREE_CRM() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@Then("^user enters username and password$")
+	public void user_enters_username_and_password() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@Then("^user clicks on Login Butoon$")
+	public void user_clicks_on_Login_Butoon() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@When("^User navigate to user Profile page$")
+	public void user_navigate_to_user_Profile_page() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@Then("^User Clicks on Sign-up Button$")
+	public void user_Clicks_on_Sign_up_Button() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@Then("^User fills the signup form$")
+	public void user_fills_the_signup_form() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@Then("^User Clicks the Submit Button$")
+	public void user_Clicks_the_Submit_Button() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@Then("^Display already Regustered message$")
+	public void display_already_Regustered_message() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@Then("^Navigate to reset password page$")
+	public void navigate_to_reset_password_page() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+
+}

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="BDDCucumberFramework" tests="11" started="11" failures="0" errors="4" ignored="9">
+  <testsuite name="MyTestRunner.TestRunner" time="0.019">
+    <testsuite name="Feature: Login Application feature" time="0.019">
+      <testsuite name="Scenario: User Login Scenario" time="0.003" incomplete="true">
+        <error>java.lang.IllegalStateException: The driver executable does not exist: D:\Data Structure\BDDCucumberFramework\null&#13;
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:534)&#13;
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)&#13;
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)&#13;
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)&#13;
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)&#13;
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:329)&#13;
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)&#13;
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:124)&#13;
+	at StepDefinitions.LoginSteps.user_is_on_Application_Home_Page(LoginSteps.java:19)&#13;
+	at ✽.Given User is on Application Home Page(Login.feature:4)&#13;
+&#13;
+</error>
+        <testcase name="Given User is on Application Home Page" classname="Scenario: User Login Scenario" time="0.003">
+          <error>java.lang.IllegalStateException: The driver executable does not exist: D:\Data Structure\BDDCucumberFramework\null&#13;
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:534)&#13;
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)&#13;
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)&#13;
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)&#13;
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)&#13;
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:329)&#13;
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)&#13;
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:124)&#13;
+	at StepDefinitions.LoginSteps.user_is_on_Application_Home_Page(LoginSteps.java:19)&#13;
+	at ✽.Given User is on Application Home Page(Login.feature:4)&#13;
+&#13;
+</error>
+        </testcase>
+        <testcase name="When Application Page Tittle is FREE CRM" classname="Scenario: User Login Scenario" time="0.001" ignored="true"/>
+        <testcase name="Then user enters username and password" classname="Scenario: User Login Scenario" time="0.0" ignored="true"/>
+        <testcase name="And user clicks on Login Butoon" classname="Scenario: User Login Scenario" time="0.001" ignored="true"/>
+        <testcase name="When User navigate to user Profile page" classname="Scenario: User Login Scenario" time="0.0" ignored="true"/>
+      </testsuite>
+      <testsuite name="Scenario: Verify Duplicate Registration" time="0.0" incomplete="true">
+        <error>java.lang.IllegalStateException: The driver executable does not exist: D:\Data Structure\BDDCucumberFramework\null&#13;
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:534)&#13;
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)&#13;
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)&#13;
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)&#13;
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)&#13;
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:329)&#13;
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)&#13;
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:124)&#13;
+	at StepDefinitions.LoginSteps.user_is_on_Application_Home_Page(LoginSteps.java:19)&#13;
+	at ✽.Given User is on Application Home Page(Login.feature:12)&#13;
+&#13;
+</error>
+        <testcase name="Given User is on Application Home Page" classname="Scenario: Verify Duplicate Registration" time="0.0">
+          <error>java.lang.IllegalStateException: The driver executable does not exist: D:\Data Structure\BDDCucumberFramework\null&#13;
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:534)&#13;
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)&#13;
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)&#13;
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)&#13;
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)&#13;
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:329)&#13;
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)&#13;
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:124)&#13;
+	at StepDefinitions.LoginSteps.user_is_on_Application_Home_Page(LoginSteps.java:19)&#13;
+	at ✽.Given User is on Application Home Page(Login.feature:12)&#13;
+&#13;
+</error>
+        </testcase>
+        <testcase name="Then User Clicks on Sign-up Button" classname="Scenario: Verify Duplicate Registration" time="0.001" ignored="true"/>
+        <testcase name="Then User fills the signup form" classname="Scenario: Verify Duplicate Registration" time="0.0" ignored="true"/>
+        <testcase name="And User Clicks the Submit Button" classname="Scenario: Verify Duplicate Registration" time="0.0" ignored="true"/>
+        <testcase name="Then Display already Regustered message" classname="Scenario: Verify Duplicate Registration" time="0.001" ignored="true"/>
+        <testcase name="Then Navigate to reset password page" classname="Scenario: Verify Duplicate Registration" time="0.004" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

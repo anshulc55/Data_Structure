@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="BDDCucumberFramework" tests="11" started="11" failures="0" errors="2" ignored="6">
+  <testsuite name="MyTestRunner.TestRunner" time="5.234">
+    <testsuite name="Feature: Login Application feature" time="5.234">
+      <testsuite name="Scenario: User Login Scenario" time="0.287" incomplete="true">
+        <error>org.openqa.selenium.WebDriverException: unknown error: Element &lt;input type="submit" value="Login" class="btn btn-small"&gt; is not clickable at point (917, 101). Other element would receive the click: &lt;div id="preloader"&gt;...&lt;/div&gt;
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'IN-6620GC2', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\ANSHUL~1.CHA\AppData\Local\Temp\scoped_dir12276_4799}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=65.0.3325.181, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 04fd7331374ffbe05ebf92c51829f62b&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#13;
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)&#13;
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)&#13;
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)&#13;
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)&#13;
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)&#13;
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:275)&#13;
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)&#13;
+	at StepDefinitions.LoginSteps.user_clicks_on_Login_Butoon(LoginSteps.java:47)&#13;
+	at ✽.And user clicks on Login Butoon(Login.feature:7)&#13;
+&#13;
+</error>
+        <testcase name="Given User is on Application Home Page" classname="Scenario: User Login Scenario" time="0.0"/>
+        <testcase name="When Application Page Tittle is FREE CRM" classname="Scenario: User Login Scenario" time="0.203"/>
+        <testcase name="Then user enters username and password" classname="Scenario: User Login Scenario" time="0.081"/>
+        <testcase name="And user clicks on Login Butoon" classname="Scenario: User Login Scenario" time="0.003">
+          <error>org.openqa.selenium.WebDriverException: unknown error: Element &lt;input type="submit" value="Login" class="btn btn-small"&gt; is not clickable at point (917, 101). Other element would receive the click: &lt;div id="preloader"&gt;...&lt;/div&gt;
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'IN-6620GC2', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\ANSHUL~1.CHA\AppData\Local\Temp\scoped_dir12276_4799}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=65.0.3325.181, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 04fd7331374ffbe05ebf92c51829f62b&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#13;
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)&#13;
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)&#13;
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)&#13;
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)&#13;
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)&#13;
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:275)&#13;
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)&#13;
+	at StepDefinitions.LoginSteps.user_clicks_on_Login_Butoon(LoginSteps.java:47)&#13;
+	at ✽.And user clicks on Login Butoon(Login.feature:7)&#13;
+&#13;
+</error>
+        </testcase>
+        <testcase name="When User navigate to user Profile page" classname="Scenario: User Login Scenario" time="0.001" ignored="true"/>
+      </testsuite>
+      <testsuite name="Scenario: Verify Duplicate Registration" time="0.002" incomplete="true">
+        <skipped/>
+        <testcase name="Given User is on Application Home Page" classname="Scenario: Verify Duplicate Registration" time="0.001"/>
+        <testcase name="Then User Clicks on Sign-up Button" classname="Scenario: Verify Duplicate Registration" time="0.0" ignored="true"/>
+        <testcase name="Then User fills the signup form" classname="Scenario: Verify Duplicate Registration" time="0.001" ignored="true"/>
+        <testcase name="And User Clicks the Submit Button" classname="Scenario: Verify Duplicate Registration" time="0.0" ignored="true"/>
+        <testcase name="Then Display already Regustered message" classname="Scenario: Verify Duplicate Registration" time="0.0" ignored="true"/>
+        <testcase name="Then Navigate to reset password page" classname="Scenario: Verify Duplicate Registration" time="0.0" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>
