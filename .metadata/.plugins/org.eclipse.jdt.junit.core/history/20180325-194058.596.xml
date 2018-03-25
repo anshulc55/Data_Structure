@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="BDDCucumberFramework" tests="5" started="5" failures="0" errors="0" ignored="0">
+  <testsuite name="MyTestRunner.TestRunner" time="10.42">
+    <testsuite name="Feature: Login Application feature" time="10.42">
+      <testsuite name="Scenario: User Login Scenario" time="10.42">
+        <testcase name="Given User is on Application Home Page" classname="Scenario: User Login Scenario" time="0.012"/>
+        <testcase name="When Application Page Tittle is FREE CRM" classname="Scenario: User Login Scenario" time="0.192"/>
+        <testcase name="Then user enters username and password" classname="Scenario: User Login Scenario" time="10.133"/>
+        <testcase name="And user clicks on Login Butoon" classname="Scenario: User Login Scenario" time="0.074"/>
+        <testcase name="When User navigate to user Profile page" classname="Scenario: User Login Scenario" time="0.009"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

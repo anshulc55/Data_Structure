@@ -6,4 +6,3 @@ Scenario: User Login Scenario
 	Then user enters username and password
 	And user clicks on Login Butoon
 	When User navigate to user Profile page
-	
