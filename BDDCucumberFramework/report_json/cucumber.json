@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7239523768,
+              "duration": 7617777333,
               "status": "passed"
             },
             "line": 4,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 8581786,
+              "duration": 12248444,
               "status": "passed"
             },
             "line": 5,
@@ -36,19 +36,29 @@
           },
           {
             "result": {
-              "duration": 201290401,
+              "duration": 201114667,
               "status": "passed"
             },
             "line": 6,
-            "name": "user enters username and password",
+            "name": "user enters \"anshulc55\" and \"Anshul@123\"",
             "match": {
-              "location": "LoginSteps.user_enters_username_and_password()"
+              "arguments": [
+                {
+                  "val": "anshulc55",
+                  "offset": 13
+                },
+                {
+                  "val": "Anshul@123",
+                  "offset": 29
+                }
+              ],
+              "location": "LoginSteps.user_enters_username_and_password(String,String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 10347693643,
+              "duration": 7344114223,
               "status": "passed"
             },
             "line": 7,
@@ -60,11 +70,14 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 80928000,
+              "status": "passed"
             },
             "line": 8,
             "name": "User navigate to user Profile page",
-            "match": {},
+            "match": {
+              "location": "LoginSteps.user_navigate_to_user_Profile_page()"
+            },
             "keyword": "When "
           }
         ]

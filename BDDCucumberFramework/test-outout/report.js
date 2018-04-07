@@ -26,7 +26,7 @@ formatter.step({
 });
 formatter.step({
   "line": 6,
-  "name": "user enters username and password",
+  "name": "user enters \"anshulc55\" and \"Anshul@123\"",
   "keyword": "Then "
 });
 formatter.step({
@@ -43,32 +43,45 @@ formatter.match({
   "location": "LoginSteps.user_is_on_Application_Home_Page()"
 });
 formatter.result({
-  "duration": 7239523768,
+  "duration": 7617777333,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.application_Page_Tittle_is_FREE_CRM()"
 });
 formatter.result({
-  "duration": 8581786,
+  "duration": 12248444,
   "status": "passed"
 });
 formatter.match({
-  "location": "LoginSteps.user_enters_username_and_password()"
+  "arguments": [
+    {
+      "val": "anshulc55",
+      "offset": 13
+    },
+    {
+      "val": "Anshul@123",
+      "offset": 29
+    }
+  ],
+  "location": "LoginSteps.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 201290401,
+  "duration": 201114667,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.user_clicks_on_Login_Butoon()"
 });
 formatter.result({
-  "duration": 10347693643,
+  "duration": 7344114223,
   "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "location": "LoginSteps.user_navigate_to_user_Profile_page()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 80928000,
+  "status": "passed"
 });
 });

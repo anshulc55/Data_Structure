@@ -31,14 +31,14 @@ public class LoginSteps {
 	@When("^Application Page Tittle is FREE CRM$")
 	public void application_Page_Tittle_is_FREE_CRM() {
 	    String actualTitle = driver.getTitle();
-	    String expectedTitle = "#1 Free CRM for Any Business: Online Customer Relationship Software";
+	    String expectedTitle = "Free CRM in the cloud software boosts sales";
 	    Assert.assertEquals(expectedTitle, actualTitle);
 	}
 
-	@Then("^user enters username and password$")
-	public void user_enters_username_and_password() {
-	  driver.findElement(By.name("username")).sendKeys("anshulc55");
-	  driver.findElement(By.name("password")).sendKeys("Anshul@123");
+	@Then("^user enters \"(.*)\" and \"(.*)\"$")
+	public void user_enters_username_and_password(String uname, String password) {
+	  driver.findElement(By.name("username")).sendKeys(uname);
+	  driver.findElement(By.name("password")).sendKeys(password);
 	   
 	}
 
@@ -50,12 +50,12 @@ public class LoginSteps {
 	
 	}
 
-	/*@When("^User navigate to user Profile page$")
+	@When("^User navigate to user Profile page$")
 	public void user_navigate_to_user_Profile_page() {
 	    String actualTitle = driver.getTitle();
 	    String expectedTitle = "CRMPRO";
 	    Assert.assertEquals(expectedTitle, actualTitle);
 	    driver.close();
-	}*/
+	}
 
 }
