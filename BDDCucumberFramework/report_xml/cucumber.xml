@@ -1,10 +1,98 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="15.256183">
-<testcase classname="Login Application feature" name="User Login Scenario" time="15.256183">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="3" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="7" time="107.813951">
+<testcase classname="Add New Contact" name="User Login Scenario" time="22.368209">
 <system-out><![CDATA[Given User is on Application Home Page......................................passed
 When Application Page Tittle is FREE CRM....................................passed
 Then user enters "anshulc55" and "Anshul@123"...............................passed
 And user clicks on Login Butoon.............................................passed
 When User navigate to user Profile page.....................................passed
+Then Go to Contacts.........................................................passed
+Then Open Contact Form......................................................passed
+Then user enters Contacts "Anshul" and "Thakur" and "9876543219" and "SDET III".passed
+Then Save the Contact.......................................................passed
+Then Close the Browser......................................................passed
 ]]></system-out>
+</testcase>
+<testcase classname="Add New Contact" name="User Login Scenario 2" time="21.805608">
+<system-out><![CDATA[Given User is on Application Home Page......................................passed
+When Application Page Tittle is FREE CRM....................................passed
+Then user enters "anshulc55" and "Anshul@123"...............................passed
+And user clicks on Login Butoon.............................................passed
+When User navigate to user Profile page.....................................passed
+Then Go to Contacts.........................................................passed
+Then Open Contact Form......................................................passed
+Then user enters Contacts "Desi" and "Solava" and "459846839" and "QA Tester".passed
+Then Save the Contact.......................................................passed
+Then Close the Browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Add New Contact" name="User Login Scenario 3" time="20.561167">
+<system-out><![CDATA[Given User is on Application Home Page......................................passed
+When Application Page Tittle is FREE CRM....................................passed
+Then user enters "anshulc55" and "Anshul@123"...............................passed
+And user clicks on Login Butoon.............................................passed
+When User navigate to user Profile page.....................................passed
+Then Go to Contacts.........................................................passed
+Then Open Contact Form......................................................passed
+Then user enters Contacts "Amit" and "Bansal" and "9999887766" and "Principal Engineer".passed
+Then Save the Contact.......................................................passed
+Then Close the Browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Application feature" name="User Login Scenario" time="13.702286">
+<system-out><![CDATA[Given User is on Application Home Page......................................passed
+When Application Page Tittle is FREE CRM....................................passed
+Then user enters "anshulc55" and "Anshul@123"...............................passed
+And user clicks on Login Butoon.............................................passed
+When User navigate to user Profile page.....................................passed
+Then Close the Browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Application feature" name="User Login Scenario 2" time="10.225296">
+<failure message="junit.framework.ComparisonFailure: expected:&lt;[CRMPRO]&gt; but was:&lt;[Free CRM in the cloud software boosts sales]&gt;&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:100)&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:107)&#13;&#10;&#9;at StepDefinitions.LoginSteps.user_navigate_to_user_Profile_page(LoginSteps.java:58)&#13;&#10;&#9;at ✽.When User navigate to user Profile page(Login.feature:20)&#13;&#10;"><![CDATA[Given User is on Application Home Page......................................passed
+When Application Page Tittle is FREE CRM....................................passed
+Then user enters "tomhank" and "tomhank123".................................passed
+And user clicks on Login Butoon.............................................passed
+When User navigate to user Profile page.....................................failed
+Then Close the Browser......................................................skipped
+
+StackTrace:
+junit.framework.ComparisonFailure: expected:<[CRMPRO]> but was:<[Free CRM in the cloud software boosts sales]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at StepDefinitions.LoginSteps.user_navigate_to_user_Profile_page(LoginSteps.java:58)
+	at ✽.When User navigate to user Profile page(Login.feature:20)
+]]></failure>
+</testcase>
+<testcase classname="Login Application feature" name="User Login Scenario 3" time="9.77905">
+<failure message="junit.framework.ComparisonFailure: expected:&lt;[CRMPRO]&gt; but was:&lt;[Free CRM in the cloud software boosts sales]&gt;&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:100)&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:107)&#13;&#10;&#9;at StepDefinitions.LoginSteps.user_navigate_to_user_Profile_page(LoginSteps.java:58)&#13;&#10;&#9;at ✽.When User navigate to user Profile page(Login.feature:20)&#13;&#10;"><![CDATA[Given User is on Application Home Page......................................passed
+When Application Page Tittle is FREE CRM....................................passed
+Then user enters "Terri" and "Terri@123"....................................passed
+And user clicks on Login Butoon.............................................passed
+When User navigate to user Profile page.....................................failed
+Then Close the Browser......................................................skipped
+
+StackTrace:
+junit.framework.ComparisonFailure: expected:<[CRMPRO]> but was:<[Free CRM in the cloud software boosts sales]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at StepDefinitions.LoginSteps.user_navigate_to_user_Profile_page(LoginSteps.java:58)
+	at ✽.When User navigate to user Profile page(Login.feature:20)
+]]></failure>
+</testcase>
+<testcase classname="Login Application feature" name="User Login Scenario 4" time="9.372335">
+<failure message="junit.framework.ComparisonFailure: expected:&lt;[CRMPRO]&gt; but was:&lt;[Free CRM in the cloud software boosts sales]&gt;&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:100)&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:107)&#13;&#10;&#9;at StepDefinitions.LoginSteps.user_navigate_to_user_Profile_page(LoginSteps.java:58)&#13;&#10;&#9;at ✽.When User navigate to user Profile page(Login.feature:20)&#13;&#10;"><![CDATA[Given User is on Application Home Page......................................passed
+When Application Page Tittle is FREE CRM....................................passed
+Then user enters "ABC" and "ABC@123"........................................passed
+And user clicks on Login Butoon.............................................passed
+When User navigate to user Profile page.....................................failed
+Then Close the Browser......................................................skipped
+
+StackTrace:
+junit.framework.ComparisonFailure: expected:<[CRMPRO]> but was:<[Free CRM in the cloud software boosts sales]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at StepDefinitions.LoginSteps.user_navigate_to_user_Profile_page(LoginSteps.java:58)
+	at ✽.When User navigate to user Profile page(Login.feature:20)
+]]></failure>
 </testcase>
 </testsuite>
