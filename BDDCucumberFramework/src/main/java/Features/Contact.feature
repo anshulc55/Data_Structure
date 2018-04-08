@@ -1,6 +1,6 @@
 Feature: Add New Contact
 
-Scenario Outline: User Login Scenario
+Scenario Outline: Add New Contact Scenario
 	Given User is on Application Home Page 
 	When Application Page Tittle is FREE CRM
 	Then user enters "<username>" and "<password>"

@@ -3,932 +3,240 @@
     "line": 1,
     "elements": [
       {
-        "line": 17,
-        "name": "User Login Scenario",
+        "line": 3,
+        "name": "Add New Multi Deal",
         "description": "",
-        "id": "add-new-contact;user-login-scenario;;2",
+        "id": "add-new-deal;add-new-multi-deal",
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 8336548000,
+              "duration": 8018924897,
               "status": "passed"
             },
             "line": 4,
             "name": "User is on Application Home Page",
             "match": {
-              "location": "LoginSteps.user_is_on_Application_Home_Page()"
+              "location": "MultiDealsSteps.user_is_on_Application_Home_Page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 11725778,
+              "duration": 11672449,
               "status": "passed"
             },
             "line": 5,
             "name": "Application Page Tittle is FREE CRM",
             "match": {
-              "location": "LoginSteps.application_Page_Tittle_is_FREE_CRM()"
+              "location": "MultiDealsSteps.application_Page_Tittle_is_FREE_CRM()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 222277333,
+              "duration": 211997872,
               "status": "passed"
             },
             "line": 6,
-            "name": "user enters \"anshulc55\" and \"Anshul@123\"",
+            "name": "user enters username and password",
             "match": {
-              "arguments": [
-                {
-                  "val": "anshulc55",
-                  "offset": 13
-                },
-                {
-                  "val": "Anshul@123",
-                  "offset": 29
-                }
-              ],
-              "location": "LoginSteps.user_enters_username_and_password(String,String)"
+              "location": "MultiDealsSteps.user_enters_username_and_password(DataTable)"
             },
-            "matchedColumns": [
-              0,
-              1
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "anshulc55",
+                  "Anshul@123"
+                ],
+                "line": 8
+              }
             ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 7751299112,
+              "duration": 8350193489,
               "status": "passed"
             },
-            "line": 7,
+            "line": 10,
             "name": "user clicks on Login Butoon",
             "match": {
-              "location": "LoginSteps.user_clicks_on_Login_Butoon()"
+              "location": "MultiDealsSteps.user_clicks_on_Login_Butoon()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 9908889,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "User navigate to user Profile page",
-            "match": {
-              "location": "LoginSteps.user_navigate_to_user_Profile_page()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 134297778,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "Go to Contacts",
-            "match": {
-              "location": "LoginSteps.go_to_Contacts()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 112250222,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "Open Contact Form",
-            "match": {
-              "location": "LoginSteps.open_Contact_Form()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 5628400000,
+              "duration": 12221339,
               "status": "passed"
             },
             "line": 11,
-            "name": "user enters Contacts \"Anshul\" and \"Thakur\" and \"9876543219\" and \"SDET III\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Anshul",
-                  "offset": 22
-                },
-                {
-                  "val": "Thakur",
-                  "offset": 35
-                },
-                {
-                  "val": "9876543219",
-                  "offset": 48
-                },
-                {
-                  "val": "SDET III",
-                  "offset": 65
-                }
-              ],
-              "location": "LoginSteps.user_enters_Contacts_and_and_and(String,String,String,String)"
-            },
-            "matchedColumns": [
-              2,
-              3,
-              4,
-              5
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 103965333,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "Save the Contact",
-            "match": {
-              "location": "LoginSteps.save_the_Contact()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 57536889,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "Close the Browser",
-            "match": {
-              "location": "LoginSteps.close_the_Browser()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 18,
-        "name": "User Login Scenario",
-        "description": "",
-        "id": "add-new-contact;user-login-scenario;;3",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 7085627111,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "User is on Application Home Page",
-            "match": {
-              "location": "LoginSteps.user_is_on_Application_Home_Page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 9878222,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "Application Page Tittle is FREE CRM",
-            "match": {
-              "location": "LoginSteps.application_Page_Tittle_is_FREE_CRM()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 197112000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user enters \"anshulc55\" and \"Anshul@123\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "anshulc55",
-                  "offset": 13
-                },
-                {
-                  "val": "Anshul@123",
-                  "offset": 29
-                }
-              ],
-              "location": "LoginSteps.user_enters_username_and_password(String,String)"
-            },
-            "matchedColumns": [
-              0,
-              1
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 8473928445,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user clicks on Login Butoon",
-            "match": {
-              "location": "LoginSteps.user_clicks_on_Login_Butoon()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 9155556,
-              "status": "passed"
-            },
-            "line": 8,
             "name": "User navigate to user Profile page",
             "match": {
-              "location": "LoginSteps.user_navigate_to_user_Profile_page()"
+              "location": "MultiDealsSteps.user_navigate_to_user_Profile_page()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 119784889,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "Go to Contacts",
-            "match": {
-              "location": "LoginSteps.go_to_Contacts()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 99289333,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "Open Contact Form",
-            "match": {
-              "location": "LoginSteps.open_Contact_Form()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 5648267112,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user enters Contacts \"Desi\" and \"Solava\" and \"459846839\" and \"QA Tester\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Desi",
-                  "offset": 22
-                },
-                {
-                  "val": "Solava",
-                  "offset": 33
-                },
-                {
-                  "val": "459846839",
-                  "offset": 46
-                },
-                {
-                  "val": "QA Tester",
-                  "offset": 62
-                }
-              ],
-              "location": "LoginSteps.user_enters_Contacts_and_and_and(String,String,String,String)"
-            },
-            "matchedColumns": [
-              2,
-              3,
-              4,
-              5
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 103268000,
+              "duration": 131535169,
               "status": "passed"
             },
             "line": 12,
-            "name": "Save the Contact",
+            "name": "Go to Deals",
             "match": {
-              "location": "LoginSteps.save_the_Contact()"
+              "location": "MultiDealsSteps.go_to_Deals()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 59296889,
+              "duration": 100321378,
               "status": "passed"
             },
             "line": 13,
-            "name": "Close the Browser",
+            "name": "Open New Deal Form",
             "match": {
-              "location": "LoginSteps.close_the_Browser()"
+              "location": "MultiDealsSteps.open_New_Deal_Form()"
             },
             "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 19,
-        "name": "User Login Scenario",
-        "description": "",
-        "id": "add-new-contact;user-login-scenario;;4",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 8596236000,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "User is on Application Home Page",
-            "match": {
-              "location": "LoginSteps.user_is_on_Application_Home_Page()"
-            },
-            "keyword": "Given "
           },
           {
             "result": {
-              "duration": 7707556,
+              "duration": 31604148268,
               "status": "passed"
             },
-            "line": 5,
-            "name": "Application Page Tittle is FREE CRM",
+            "line": 14,
+            "name": "user enters deal data",
             "match": {
-              "location": "LoginSteps.application_Page_Tittle_is_FREE_CRM()"
+              "location": "MultiDealsSteps.user_enters_deal_data(DataTable)"
             },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 196140444,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user enters \"anshulc55\" and \"Anshul@123\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "anshulc55",
-                  "offset": 13
-                },
-                {
-                  "val": "Anshul@123",
-                  "offset": 29
-                }
-              ],
-              "location": "LoginSteps.user_enters_username_and_password(String,String)"
-            },
-            "matchedColumns": [
-              0,
-              1
+            "rows": [
+              {
+                "cells": [
+                  "Title",
+                  "Amount",
+                  "Probability",
+                  "Commission",
+                  "Description",
+                  "Next Step"
+                ],
+                "line": 15
+              },
+              {
+                "cells": [
+                  "New Deal",
+                  "1000",
+                  "20",
+                  "3",
+                  "This is new Deal",
+                  "To Be Discussed"
+                ],
+                "line": 16
+              },
+              {
+                "cells": [
+                  "CX Deal",
+                  "1000",
+                  "20",
+                  "3",
+                  "This is new Deal",
+                  "To Be Discussed"
+                ],
+                "line": 17
+              },
+              {
+                "cells": [
+                  "Shoes Top",
+                  "1000",
+                  "20",
+                  "3",
+                  "This is new Deal",
+                  "To Be Discussed"
+                ],
+                "line": 18
+              },
+              {
+                "cells": [
+                  "Header Poster",
+                  "1000",
+                  "20",
+                  "3",
+                  "This is new Deal",
+                  "To Be Discussed"
+                ],
+                "line": 19
+              },
+              {
+                "cells": [
+                  "Amazon Bottom",
+                  "1000",
+                  "20",
+                  "3",
+                  "This is new Deal",
+                  "To Be Discussed"
+                ],
+                "line": 20
+              },
+              {
+                "cells": [
+                  "Flipkart",
+                  "1000",
+                  "20",
+                  "3",
+                  "This is new Deal",
+                  "To Be Discussed"
+                ],
+                "line": 21
+              },
+              {
+                "cells": [
+                  "ebayl",
+                  "1000",
+                  "20",
+                  "3",
+                  "This is new Deal",
+                  "To Be Discussed"
+                ],
+                "line": 22
+              }
             ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 5282200444,
+              "duration": 64716918,
               "status": "passed"
             },
-            "line": 7,
-            "name": "user clicks on Login Butoon",
-            "match": {
-              "location": "LoginSteps.user_clicks_on_Login_Butoon()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 10319111,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "User navigate to user Profile page",
-            "match": {
-              "location": "LoginSteps.user_navigate_to_user_Profile_page()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 120233777,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "Go to Contacts",
-            "match": {
-              "location": "LoginSteps.go_to_Contacts()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 123661778,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "Open Contact Form",
-            "match": {
-              "location": "LoginSteps.open_Contact_Form()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 6057977777,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user enters Contacts \"Amit\" and \"Bansal\" and \"9999887766\" and \"Principal Engineer\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Amit",
-                  "offset": 22
-                },
-                {
-                  "val": "Bansal",
-                  "offset": 33
-                },
-                {
-                  "val": "9999887766",
-                  "offset": 46
-                },
-                {
-                  "val": "Principal Engineer",
-                  "offset": 63
-                }
-              ],
-              "location": "LoginSteps.user_enters_Contacts_and_and_and(String,String,String,String)"
-            },
-            "matchedColumns": [
-              2,
-              3,
-              4,
-              5
+            "comments": [
+              {
+                "line": 24,
+                "value": "#Then Save the Deal"
+              }
             ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 105784000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "Save the Contact",
-            "match": {
-              "location": "LoginSteps.save_the_Contact()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 60905778,
-              "status": "passed"
-            },
-            "line": 13,
+            "line": 25,
             "name": "Close the Browser",
             "match": {
-              "location": "LoginSteps.close_the_Browser()"
+              "location": "MultiDealsSteps.close_the_Browser()"
             },
             "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "Add New Contact",
+    "name": "Add New Deal",
     "description": "",
-    "id": "add-new-contact",
+    "id": "add-new-deal",
     "keyword": "Feature",
-    "uri": "Contact.feature"
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
-        "line": 25,
-        "name": "User Login Scenario",
-        "description": "",
-        "id": "login-application-feature;user-login-scenario;;2",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 7884404444,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "User is on Application Home Page",
-            "match": {
-              "location": "LoginSteps.user_is_on_Application_Home_Page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 7044889,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "Application Page Tittle is FREE CRM",
-            "match": {
-              "location": "LoginSteps.application_Page_Tittle_is_FREE_CRM()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 207474666,
-              "status": "passed"
-            },
-            "comments": [
-              {
-                "line": 17,
-                "value": "#Then user enters username and password"
-              }
-            ],
-            "line": 18,
-            "name": "user enters \"anshulc55\" and \"Anshul@123\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "anshulc55",
-                  "offset": 13
-                },
-                {
-                  "val": "Anshul@123",
-                  "offset": 29
-                }
-              ],
-              "location": "LoginSteps.user_enters_username_and_password(String,String)"
-            },
-            "matchedColumns": [
-              0,
-              1
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 5510682667,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "user clicks on Login Butoon",
-            "match": {
-              "location": "LoginSteps.user_clicks_on_Login_Butoon()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 7068888,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "User navigate to user Profile page",
-            "match": {
-              "location": "LoginSteps.user_navigate_to_user_Profile_page()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 85610666,
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "Close the Browser",
-            "match": {
-              "location": "LoginSteps.close_the_Browser()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 26,
-        "name": "User Login Scenario",
-        "description": "",
-        "id": "login-application-feature;user-login-scenario;;3",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 9018818223,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "User is on Application Home Page",
-            "match": {
-              "location": "LoginSteps.user_is_on_Application_Home_Page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 8965778,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "Application Page Tittle is FREE CRM",
-            "match": {
-              "location": "LoginSteps.application_Page_Tittle_is_FREE_CRM()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 197580000,
-              "status": "passed"
-            },
-            "comments": [
-              {
-                "line": 17,
-                "value": "#Then user enters username and password"
-              }
-            ],
-            "line": 18,
-            "name": "user enters \"tomhank\" and \"tomhank123\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "tomhank",
-                  "offset": 13
-                },
-                {
-                  "val": "tomhank123",
-                  "offset": 27
-                }
-              ],
-              "location": "LoginSteps.user_enters_username_and_password(String,String)"
-            },
-            "matchedColumns": [
-              0,
-              1
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 986004445,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "user clicks on Login Butoon",
-            "match": {
-              "location": "LoginSteps.user_clicks_on_Login_Butoon()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 13928000,
-              "error_message": "junit.framework.ComparisonFailure: expected:\u003c[CRMPRO]\u003e but was:\u003c[Free CRM in the cloud software boosts sales]\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat StepDefinitions.LoginSteps.user_navigate_to_user_Profile_page(LoginSteps.java:58)\r\n\tat ✽.When User navigate to user Profile page(Login.feature:20)\r\n",
-              "status": "failed"
-            },
-            "line": 20,
-            "name": "User navigate to user Profile page",
-            "match": {
-              "location": "LoginSteps.user_navigate_to_user_Profile_page()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 21,
-            "name": "Close the Browser",
-            "match": {
-              "location": "LoginSteps.close_the_Browser()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 27,
-        "name": "User Login Scenario",
-        "description": "",
-        "id": "login-application-feature;user-login-scenario;;4",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 8582496000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "User is on Application Home Page",
-            "match": {
-              "location": "LoginSteps.user_is_on_Application_Home_Page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 9408445,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "Application Page Tittle is FREE CRM",
-            "match": {
-              "location": "LoginSteps.application_Page_Tittle_is_FREE_CRM()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 194054222,
-              "status": "passed"
-            },
-            "comments": [
-              {
-                "line": 17,
-                "value": "#Then user enters username and password"
-              }
-            ],
-            "line": 18,
-            "name": "user enters \"Terri\" and \"Terri@123\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Terri",
-                  "offset": 13
-                },
-                {
-                  "val": "Terri@123",
-                  "offset": 25
-                }
-              ],
-              "location": "LoginSteps.user_enters_username_and_password(String,String)"
-            },
-            "matchedColumns": [
-              0,
-              1
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 985855556,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "user clicks on Login Butoon",
-            "match": {
-              "location": "LoginSteps.user_clicks_on_Login_Butoon()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 7236000,
-              "error_message": "junit.framework.ComparisonFailure: expected:\u003c[CRMPRO]\u003e but was:\u003c[Free CRM in the cloud software boosts sales]\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat StepDefinitions.LoginSteps.user_navigate_to_user_Profile_page(LoginSteps.java:58)\r\n\tat ✽.When User navigate to user Profile page(Login.feature:20)\r\n",
-              "status": "failed"
-            },
-            "line": 20,
-            "name": "User navigate to user Profile page",
-            "match": {
-              "location": "LoginSteps.user_navigate_to_user_Profile_page()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 21,
-            "name": "Close the Browser",
-            "match": {
-              "location": "LoginSteps.close_the_Browser()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 28,
-        "name": "User Login Scenario",
-        "description": "",
-        "id": "login-application-feature;user-login-scenario;;5",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 8143232000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "User is on Application Home Page",
-            "match": {
-              "location": "LoginSteps.user_is_on_Application_Home_Page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 9247111,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "Application Page Tittle is FREE CRM",
-            "match": {
-              "location": "LoginSteps.application_Page_Tittle_is_FREE_CRM()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 161892889,
-              "status": "passed"
-            },
-            "comments": [
-              {
-                "line": 17,
-                "value": "#Then user enters username and password"
-              }
-            ],
-            "line": 18,
-            "name": "user enters \"ABC\" and \"ABC@123\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "ABC",
-                  "offset": 13
-                },
-                {
-                  "val": "ABC@123",
-                  "offset": 23
-                }
-              ],
-              "location": "LoginSteps.user_enters_username_and_password(String,String)"
-            },
-            "matchedColumns": [
-              0,
-              1
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1051989334,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "user clicks on Login Butoon",
-            "match": {
-              "location": "LoginSteps.user_clicks_on_Login_Butoon()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 5973778,
-              "error_message": "junit.framework.ComparisonFailure: expected:\u003c[CRMPRO]\u003e but was:\u003c[Free CRM in the cloud software boosts sales]\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat StepDefinitions.LoginSteps.user_navigate_to_user_Profile_page(LoginSteps.java:58)\r\n\tat ✽.When User navigate to user Profile page(Login.feature:20)\r\n",
-              "status": "failed"
-            },
-            "line": 20,
-            "name": "User navigate to user Profile page",
-            "match": {
-              "location": "LoginSteps.user_navigate_to_user_Profile_page()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 21,
-            "name": "Close the Browser",
-            "match": {
-              "location": "LoginSteps.close_the_Browser()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      }
-    ],
-    "name": "Login Application feature",
-    "description": "",
-    "id": "login-application-feature",
-    "keyword": "Feature",
-    "uri": "Login.feature"
+    "uri": "src/main/java/Features/MultiDeals.feature"
   }
 ]
