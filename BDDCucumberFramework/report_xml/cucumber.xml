@@ -1,5 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="48.505732">
-<testcase classname="Add New Deal" name="Add New Multi Deal" time="48.505732">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="49.076926">
+<testcase classname="Add New Deal" name="Login Free CRM with Valid Creadentials" time="14.242723">
+<system-out><![CDATA[Given User is on Application Home Page......................................passed
+When Application Page Tittle is FREE CRM....................................passed
+Then user enters username and password......................................passed
+And user clicks on Login Butoon.............................................passed
+When User navigate to user Profile page.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Add New Deal" name="Login Free CRM with InValid Creadentials" time="8.639778">
+<system-out><![CDATA[Given User is on Application Home Page......................................passed
+When Application Page Tittle is FREE CRM....................................passed
+Then user enters username and password......................................passed
+And user clicks on Login Butoon.............................................passed
+When Application Page Tittle is FREE CRM....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Add New Deal" name="Add New Multi Deal" time="26.194425">
 <system-out><![CDATA[Given User is on Application Home Page......................................passed
 When Application Page Tittle is FREE CRM....................................passed
 Then user enters username and password......................................passed
@@ -8,7 +24,7 @@ When User navigate to user Profile page.....................................pass
 Then Go to Deals............................................................passed
 Then Open New Deal Form.....................................................passed
 Then user enters deal data..................................................passed
-Then Close the Browser......................................................passed
+Then Save the Deal..........................................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

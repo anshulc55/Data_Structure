@@ -12,6 +12,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
 import cucumber.api.DataTable;
+import cucumber.api.java.After;
+import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -20,17 +22,39 @@ import junit.framework.Assert;
 public class MultiDealsSteps {
 
 	WebDriver driver;
-
-	@Given("^User is on Application Home Page$")
-	public void user_is_on_Application_Home_Page() {
-
+	
+	
+	//Global Hooks
+	@Before
+	public void InitializeBrowser(){
 		System.setProperty("webdriver.chrome.driver",
 				System.getProperty("user.dir") + "\\src\\main\\java\\resources\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
+	}
+
+	@After
+	public void closeBrowser(){
+		driver.quit();
+	}
+	
+	@Given("^User is on Application Home Page$")
+	public void user_is_on_Application_Home_Page() {
 		driver.get("https://www.freecrm.com/index.html");
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
+	}
+	
+	@Before("@Smoke")
+	public void beforeSmoke(){
+		// Doing Some SetUp
+		System.out.println("Hi I am Pre-Req of Smoke Test");
+	}
+	
+	@After("@Smoke")
+	public void afterSmoke(){
+		//Do Some Code
+		System.out.println("After Smoke Test");
 	}
 
 	@When("^Application Page Tittle is FREE CRM$")
@@ -101,11 +125,10 @@ public class MultiDealsSteps {
 		}
 	}
 
-	/*
-	 * @Then("^Save the Deal$") public void save_the_Deal(){
-	 * driver.findElement(By.xpath("//input[@type='submit' and @value='Save']"
-	 * )).click(); }
-	 */
+	@Then("^Save the Deal$")
+	public void save_the_Deal(){
+	    driver.findElement(By.xpath("//input[@type='submit' and @value='Save']")).click();
+	}
 
 	@Then("^Close the Browser$")
 	public void close_the_Browser() {

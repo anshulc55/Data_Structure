@@ -3,16 +3,38 @@
     "line": 1,
     "elements": [
       {
+        "before": [
+          {
+            "result": {
+              "duration": 4002293776,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MultiDealsSteps.InitializeBrowser()"
+            }
+          }
+        ],
         "line": 3,
-        "name": "Add New Multi Deal",
+        "name": "Login Free CRM with Valid Creadentials",
         "description": "",
-        "id": "add-new-deal;add-new-multi-deal",
+        "id": "add-new-deal;login-free-crm-with-valid-creadentials",
+        "after": [
+          {
+            "result": {
+              "duration": 620260782,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MultiDealsSteps.closeBrowser()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 8018924897,
+              "duration": 3469859582,
               "status": "passed"
             },
             "line": 4,
@@ -24,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 11672449,
+              "duration": 13273321,
               "status": "passed"
             },
             "line": 5,
@@ -36,7 +58,7 @@
           },
           {
             "result": {
-              "duration": 211997872,
+              "duration": 215601586,
               "status": "passed"
             },
             "line": 6,
@@ -64,7 +86,7 @@
           },
           {
             "result": {
-              "duration": 8350193489,
+              "duration": 5910310302,
               "status": "passed"
             },
             "line": 10,
@@ -76,7 +98,7 @@
           },
           {
             "result": {
-              "duration": 12221339,
+              "duration": 11123546,
               "status": "passed"
             },
             "line": 11,
@@ -85,13 +107,253 @@
               "location": "MultiDealsSteps.user_navigate_to_user_Profile_page()"
             },
             "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 219555,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MultiDealsSteps.beforeSmoke()"
+            }
           },
           {
             "result": {
-              "duration": 131535169,
+              "duration": 3095195471,
               "status": "passed"
             },
-            "line": 12,
+            "match": {
+              "location": "MultiDealsSteps.InitializeBrowser()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Login Free CRM with InValid Creadentials",
+        "description": "",
+        "id": "add-new-deal;login-free-crm-with-invalid-creadentials",
+        "after": [
+          {
+            "result": {
+              "duration": 632958993,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MultiDealsSteps.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 120445,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MultiDealsSteps.afterSmoke()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3655411862,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User is on Application Home Page",
+            "match": {
+              "location": "MultiDealsSteps.user_is_on_Application_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10655101,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Application Page Tittle is FREE CRM",
+            "match": {
+              "location": "MultiDealsSteps.application_Page_Tittle_is_FREE_CRM()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 204170485,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user enters username and password",
+            "match": {
+              "location": "MultiDealsSteps.user_enters_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ],
+                "line": 18
+              },
+              {
+                "cells": [
+                  "anshulc55",
+                  "nshul@123"
+                ],
+                "line": 19
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1031653750,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user clicks on Login Butoon",
+            "match": {
+              "location": "MultiDealsSteps.user_clicks_on_Login_Butoon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9392436,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Application Page Tittle is FREE CRM",
+            "match": {
+              "location": "MultiDealsSteps.application_Page_Tittle_is_FREE_CRM()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3116423008,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MultiDealsSteps.InitializeBrowser()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Add New Multi Deal",
+        "description": "",
+        "id": "add-new-deal;add-new-multi-deal",
+        "after": [
+          {
+            "result": {
+              "duration": 610761234,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MultiDealsSteps.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3272630868,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User is on Application Home Page",
+            "match": {
+              "location": "MultiDealsSteps.user_is_on_Application_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8263549,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Application Page Tittle is FREE CRM",
+            "match": {
+              "location": "MultiDealsSteps.application_Page_Tittle_is_FREE_CRM()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 192337162,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user enters username and password",
+            "match": {
+              "location": "MultiDealsSteps.user_enters_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ],
+                "line": 29
+              },
+              {
+                "cells": [
+                  "anshulc55",
+                  "Anshul@123"
+                ],
+                "line": 30
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3837463255,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user clicks on Login Butoon",
+            "match": {
+              "location": "MultiDealsSteps.user_clicks_on_Login_Butoon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7455104,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User navigate to user Profile page",
+            "match": {
+              "location": "MultiDealsSteps.user_navigate_to_user_Profile_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 140301653,
+              "status": "passed"
+            },
+            "line": 34,
             "name": "Go to Deals",
             "match": {
               "location": "MultiDealsSteps.go_to_Deals()"
@@ -100,10 +362,10 @@
           },
           {
             "result": {
-              "duration": 100321378,
+              "duration": 154798529,
               "status": "passed"
             },
-            "line": 13,
+            "line": 35,
             "name": "Open New Deal Form",
             "match": {
               "location": "MultiDealsSteps.open_New_Deal_Form()"
@@ -112,10 +374,10 @@
           },
           {
             "result": {
-              "duration": 31604148268,
+              "duration": 13821023270,
               "status": "passed"
             },
-            "line": 14,
+            "line": 36,
             "name": "user enters deal data",
             "match": {
               "location": "MultiDealsSteps.user_enters_deal_data(DataTable)"
@@ -130,7 +392,7 @@
                   "Description",
                   "Next Step"
                 ],
-                "line": 15
+                "line": 37
               },
               {
                 "cells": [
@@ -141,7 +403,7 @@
                   "This is new Deal",
                   "To Be Discussed"
                 ],
-                "line": 16
+                "line": 38
               },
               {
                 "cells": [
@@ -152,7 +414,7 @@
                   "This is new Deal",
                   "To Be Discussed"
                 ],
-                "line": 17
+                "line": 39
               },
               {
                 "cells": [
@@ -163,70 +425,20 @@
                   "This is new Deal",
                   "To Be Discussed"
                 ],
-                "line": 18
-              },
-              {
-                "cells": [
-                  "Header Poster",
-                  "1000",
-                  "20",
-                  "3",
-                  "This is new Deal",
-                  "To Be Discussed"
-                ],
-                "line": 19
-              },
-              {
-                "cells": [
-                  "Amazon Bottom",
-                  "1000",
-                  "20",
-                  "3",
-                  "This is new Deal",
-                  "To Be Discussed"
-                ],
-                "line": 20
-              },
-              {
-                "cells": [
-                  "Flipkart",
-                  "1000",
-                  "20",
-                  "3",
-                  "This is new Deal",
-                  "To Be Discussed"
-                ],
-                "line": 21
-              },
-              {
-                "cells": [
-                  "ebayl",
-                  "1000",
-                  "20",
-                  "3",
-                  "This is new Deal",
-                  "To Be Discussed"
-                ],
-                "line": 22
+                "line": 40
               }
             ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 64716918,
+              "duration": 1032967082,
               "status": "passed"
             },
-            "comments": [
-              {
-                "line": 24,
-                "value": "#Then Save the Deal"
-              }
-            ],
-            "line": 25,
-            "name": "Close the Browser",
+            "line": 42,
+            "name": "Save the Deal",
             "match": {
-              "location": "MultiDealsSteps.close_the_Browser()"
+              "location": "MultiDealsSteps.save_the_Deal()"
             },
             "keyword": "Then "
           }
@@ -237,6 +449,6 @@
     "description": "",
     "id": "add-new-deal",
     "keyword": "Feature",
-    "uri": "src/main/java/Features/MultiDeals.feature"
+    "uri": "src/main/java/Features/Hooks.feature"
   }
 ]
