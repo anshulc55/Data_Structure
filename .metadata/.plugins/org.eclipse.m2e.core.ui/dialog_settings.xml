@@ -56,12 +56,15 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="CucumberPOM.CucumberPOM"/>
 			<item value="BDDCucumberFramework.BDDCucumberFramework"/>
 		</list>
 		<list key="groupId">
+			<item value="CucumberPOM"/>
 			<item value="BDDCucumberFramework"/>
 		</list>
 		<list key="artifactId">
+			<item value="CucumberPOM"/>
 			<item value="BDDCucumberFramework"/>
 		</list>
 		<list key="projectNameTemplate">

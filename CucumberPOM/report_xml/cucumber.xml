@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="44.308374">
+<testcase classname="Test Free CRM Web Application" name="Verify Application Landing Page" time="8.986684">
+<system-out><![CDATA[Given User is on Application Landing Page...................................passed
+Then verify user is on Application Landing Page.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Free CRM Web Application" name="Application Login" time="15.44096">
+<system-out><![CDATA[Given User is on Application Landing Page...................................passed
+Then Login FreeCRM Application..............................................passed
+Then Verify User is on Application Home.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Free CRM Web Application" name="Create New Contact in Application" time="19.88073">
+<system-out><![CDATA[Given User is on Application Landing Page...................................passed
+Then Login FreeCRM Application..............................................passed
+Then Open Contact Page......................................................passed
+Then Create new Contact.....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

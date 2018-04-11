@@ -1,0 +1,216 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4702767507,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.openBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Verify Application Landing Page",
+        "description": "",
+        "id": "test-free-crm-web-application;verify-application-landing-page",
+        "after": [
+          {
+            "result": {
+              "duration": 127941608,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4122326948,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Application Landing Page",
+            "match": {
+              "location": "LoginSteps.user_is_on_Application_Landing_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 33648400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "verify user is on Application Landing Page",
+            "match": {
+              "location": "LoginSteps.verify_user_is_on_Application_Landing_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3933705422,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.openBrowser()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Application Login",
+        "description": "",
+        "id": "test-free-crm-web-application;application-login",
+        "after": [
+          {
+            "result": {
+              "duration": 80845670,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4352382197,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is on Application Landing Page",
+            "match": {
+              "location": "LoginSteps.user_is_on_Application_Landing_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7042585277,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Login FreeCRM Application",
+            "match": {
+              "location": "LoginSteps.login_FreeCRM_Application()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 31441736,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify User is on Application Home",
+            "match": {
+              "location": "HomePageSteps.verify_User_is_on_Application_Home()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3921919215,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.openBrowser()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Create New Contact in Application",
+        "description": "",
+        "id": "test-free-crm-web-application;create-new-contact-in-application",
+        "after": [
+          {
+            "result": {
+              "duration": 73089680,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4166466889,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is on Application Landing Page",
+            "match": {
+              "location": "LoginSteps.user_is_on_Application_Landing_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4094874095,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Login FreeCRM Application",
+            "match": {
+              "location": "LoginSteps.login_FreeCRM_Application()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 413633671,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Open Contact Page",
+            "match": {
+              "location": "HomePageSteps.Open_Contact_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7210746830,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Create new Contact",
+            "match": {
+              "location": "HomePageSteps.create_New_Contact()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Free CRM Web Application",
+    "description": "",
+    "id": "test-free-crm-web-application",
+    "keyword": "Feature",
+    "uri": "src/main/java/com/cucumber/features/Application.feature"
+  }
+]
