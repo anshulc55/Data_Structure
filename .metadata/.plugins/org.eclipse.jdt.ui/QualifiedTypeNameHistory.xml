@@ -47,9 +47,9 @@
 <fullyQualifiedTypeName name="cucumber.api.java.en.Then"/>
 <fullyQualifiedTypeName name="cucumber.api.java.Before"/>
 <fullyQualifiedTypeName name="cucumber.api.java.After"/>
-<fullyQualifiedTypeName name="com.cucumberpom.pages.LoginPage"/>
 <fullyQualifiedTypeName name="com.cucumberpom.base.BaseTest"/>
 <fullyQualifiedTypeName name="com.cucumberpom.pages.HomePage"/>
 <fullyQualifiedTypeName name="junit.framework.Assert"/>
 <fullyQualifiedTypeName name="com.cucumberpom.pages.ContactsPage"/>
+<fullyQualifiedTypeName name="com.cucumberpom.pages.LoginPage"/>
 </qualifiedTypeNameHistroy>
