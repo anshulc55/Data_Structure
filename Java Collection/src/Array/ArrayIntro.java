@@ -15,6 +15,8 @@ public class ArrayIntro {
 		intArray[3] = 12;
 		intArray[4] = 176;
 		
+		
+		
 		/*System.out.println(intArray[2]);
 		System.out.println(arrayTwo[7]);
 */
