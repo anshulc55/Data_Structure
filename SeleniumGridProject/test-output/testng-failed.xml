@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="Test-Chrome(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.selenium.grid.ExecuteTestOnAllBrowsers">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="testSearchGoogle"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.selenium.grid.ExecuteTestOnAllBrowsers -->
+    </classes>
+  </test> <!-- Test-Chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->
