@@ -56,4 +56,6 @@
 <fullyQualifiedTypeName name="Tree.PreOrderTraversal"/>
 <fullyQualifiedTypeName name="Tree.PreOrderTraversal.TreeNode"/>
 <fullyQualifiedTypeName name="Tree.InOrderTraversal"/>
+<fullyQualifiedTypeName name="java.util.Queue"/>
+<fullyQualifiedTypeName name="java.util.LinkedList"/>
 </qualifiedTypeNameHistroy>
