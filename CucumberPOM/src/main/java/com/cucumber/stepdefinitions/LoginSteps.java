@@ -35,7 +35,7 @@ public class LoginSteps extends BaseTest {
 	
 	@Then("^verify user is on Application Landing Page$")
 	public void verify_user_is_on_Application_Landing_Page() {
-	    String expectedTitle = "Free CRM in the cloud software boosts sales";
+	    String expectedTitle = "Free CRM software in the cloud powers sales and customer service";
 	    Assert.assertEquals(expectedTitle, loginPage.getTitle());
 	}
 	

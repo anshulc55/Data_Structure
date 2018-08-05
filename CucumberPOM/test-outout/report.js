@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 4702767507,
+  "duration": 4550714957,
   "status": "passed"
 });
 formatter.scenario({
@@ -32,22 +32,22 @@ formatter.match({
   "location": "LoginSteps.user_is_on_Application_Landing_Page()"
 });
 formatter.result({
-  "duration": 4122326948,
+  "duration": 7853189582,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.verify_user_is_on_Application_Landing_Page()"
 });
 formatter.result({
-  "duration": 33648400,
+  "duration": 21327139,
   "status": "passed"
 });
 formatter.after({
-  "duration": 127941608,
+  "duration": 64499641,
   "status": "passed"
 });
 formatter.before({
-  "duration": 3933705422,
+  "duration": 3170961561,
   "status": "passed"
 });
 formatter.scenario({
@@ -77,29 +77,29 @@ formatter.match({
   "location": "LoginSteps.user_is_on_Application_Landing_Page()"
 });
 formatter.result({
-  "duration": 4352382197,
+  "duration": 9099581910,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.login_FreeCRM_Application()"
 });
 formatter.result({
-  "duration": 7042585277,
+  "duration": 10110072147,
   "status": "passed"
 });
 formatter.match({
   "location": "HomePageSteps.verify_User_is_on_Application_Home()"
 });
 formatter.result({
-  "duration": 31441736,
+  "duration": 10730236,
   "status": "passed"
 });
 formatter.after({
-  "duration": 80845670,
+  "duration": 68950759,
   "status": "passed"
 });
 formatter.before({
-  "duration": 3921919215,
+  "duration": 3165722887,
   "status": "passed"
 });
 formatter.scenario({
@@ -134,32 +134,32 @@ formatter.match({
   "location": "LoginSteps.user_is_on_Application_Landing_Page()"
 });
 formatter.result({
-  "duration": 4166466889,
+  "duration": 7519868249,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.login_FreeCRM_Application()"
 });
 formatter.result({
-  "duration": 4094874095,
+  "duration": 9078013438,
   "status": "passed"
 });
 formatter.match({
   "location": "HomePageSteps.Open_Contact_Page()"
 });
 formatter.result({
-  "duration": 413633671,
+  "duration": 285138602,
   "status": "passed"
 });
 formatter.match({
   "location": "HomePageSteps.create_New_Contact()"
 });
 formatter.result({
-  "duration": 7210746830,
+  "duration": 7298436398,
   "status": "passed"
 });
 formatter.after({
-  "duration": 73089680,
+  "duration": 60377858,
   "status": "passed"
 });
 });
