@@ -2310,3 +2310,19 @@ org.eclipse.core.runtime.CoreException: Launch configuration com.webdriverframew
 2018-08-06 20:04:16,804 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Tutorial\Jenkins\java-maven-junit-helloworld-master\src\main\resources
 2018-08-06 20:04:16,805 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2018-08-06 20:04:16,805 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Tutorial\Jenkins\java-maven-junit-helloworld-master\src\test\resources
+2018-08-08 09:24:36,322 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-08 09:24:36,326 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Data Structure\CucumberPOM\src\main\resources
+2018-08-08 09:24:36,329 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-08 09:24:36,329 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Data Structure\CucumberPOM\src\test\resources
+2018-08-08 09:24:38,098 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-08 09:24:38,099 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Tutorial\Jenkins\java-maven-junit-helloworld-master\src\main\resources
+2018-08-08 09:24:38,101 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-08 09:24:38,102 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Tutorial\Jenkins\java-maven-junit-helloworld-master\src\test\resources
+2018-08-09 20:22:41,743 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-09 20:22:41,746 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Data Structure\CucumberPOM\src\main\resources
+2018-08-09 20:22:41,749 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-09 20:22:41,749 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Data Structure\CucumberPOM\src\test\resources
+2018-08-09 20:22:42,656 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-09 20:22:42,657 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Tutorial\Jenkins\java-maven-junit-helloworld-master\src\main\resources
+2018-08-09 20:22:42,658 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-09 20:22:42,658 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Tutorial\Jenkins\java-maven-junit-helloworld-master\src\test\resources
