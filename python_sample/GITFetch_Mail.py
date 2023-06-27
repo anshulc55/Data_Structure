@@ -110,6 +110,3 @@ def format_data(repo_owner, repo_name, token):
     print(subject)
     print("*****************")
     print(body)
-    
-
-print(format_data("anshulc55", "Data_Structure", "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"))
